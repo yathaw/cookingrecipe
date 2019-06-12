@@ -1,0 +1,39 @@
+Cooking Recipe Project
+----------------------
+
+- categories
+	- categories_id 			=>	int
+	- categories_name			=>	varchar ( 225 )
+	- categories_photo			=>	text
+	- categories_description	=>	text
+
+- countries
+	- countries_id				=>	int
+	- countries_name			=>	varchar ( 225 )
+	- countries_photo			=>	text
+
+- ingredients
+	- ingredients_id			=>	int
+	- ingredients_name			=>	varchar ( 225 )
+	- ingredients_photo			=>	text
+
+- meals
+	- meals_id 					=>	int
+	- meals_name				=>	varchar ( 225 )
+	- meals_youtubelink			=>	varchar ( 225 )
+	- meals_categoryid			=>	int
+	- meals_countryid			=>	int
+
+- mealdetails
+	- mealdetails_id 			=>	int
+	- mealdetails_amount		=>	varchar ( 225 )
+	- mealdetails_mealid		=>	int
+	- mealdetails_ingredientsid =>	int
+
+- users
+	- users_id					=>	int
+	- user_email				=>	varchar ( 225 )
+	- user_password				=>	varchar ( 225 )
+
+
+
